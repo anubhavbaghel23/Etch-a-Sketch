@@ -4,16 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Etch-A-Sketch</title>
 </head>
 <body>   
-    <div id="userInputAndButtonDiv">
-        <div id="userInputDiv">
-            <input class="input" type="number" id="columnInput" placeholder="Enter Columns ">
-            <input class="input" type="number" id="rowInput" placeholder="Enter Rows ">
-        </div>
-            <button onclick="createGrid()" id="createGridButton">Create Grid Layout</button>
+    <div id="buttonsDiv">
+        <button class="buttons" id="changeGridButton">Change Grid Size</button>
+        <button class="buttons" id="resetButton">Reset</button>
     </div>
+    
     <div class="container"></div>
 
     <script src="./javascript.js"></script>
