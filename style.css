@@ -5,16 +5,13 @@
 }
 
 .squareDiv{
-    background-color: lightgray;
     border: 1px solid grey;
     aspect-ratio: 1 / 1;
 }
 
 .squareDiv:hover{
-    background-color: #4682b4;
     cursor: pointer;
     transform: scale(1.05);     
-    transition: all 0.2s ease;
 }
 
 button{
