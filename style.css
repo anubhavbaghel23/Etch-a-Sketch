@@ -1,0 +1,61 @@
+.container{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+}
+
+.squareDiv{
+    background-color: lightgray;
+    border: 1px solid grey;
+    aspect-ratio: 1 / 1;
+}
+
+.squareDiv:hover{
+    background-color: #4682b4;
+    cursor: pointer;
+    transform: scale(1.05);     
+    transition: all 0.2s ease;
+}
+
+button{
+    height: 60px;
+    width: 120px;
+    background-color: rgb(0, 157, 255);
+    border-radius: 50px;
+    padding: 6px 10px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: none;
+}
+
+button:hover{
+    background-color: #008cff;
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: all 0.5s ease;
+}
+
+
+#userInputAndButtonDiv{
+    display: flex;
+    height: 200px;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#userInputDiv{
+    display: flex;
+    gap: 40px;
+}
+
+.input{
+    border-radius: 30px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 8px;
+}
